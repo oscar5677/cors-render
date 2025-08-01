@@ -3,7 +3,7 @@ const cors_proxy = require('cors-anywhere');
 const host = process.env.HOST || '0.0.0.0';
 const port = process.env.PORT || 8080;
 
-//const allowedOrigin = 'https://openstreams.pages.dev';
+//const allowedOrigin = '';
 
 cors_proxy.createServer({
   //originWhitelist: [allowedOrigin], // Only allow your site
